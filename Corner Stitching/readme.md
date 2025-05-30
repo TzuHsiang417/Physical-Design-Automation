@@ -26,7 +26,3 @@ Run the program:
 ```sh
 python3 draw_block_layout.py [LAYOUT_INFORMATION] [PICTURE_NAME]
 ```
-
-## Reports
-Execution Results and Report: 
-[PA3_107501019_report.pdf](PA3_107501019_report.pdf)
