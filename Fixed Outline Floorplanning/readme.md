@@ -1,5 +1,5 @@
 # Lab2 Fixed Outline Floorplanning
-This lab focuses on the implementation of corner stitching and its underlying data structures to support basic layout representation. The input file provides information about block tiles, and as new block tiles are added, corresponding space tiles must be generated and maintained accordingly. 
+This lab focuses on designing a fixed-outline floorplanner to minimize the chip floorplan area. The goal is to place all macros within a rectangular chip region without exceeding the given outline, while minimizing the overall area and dead space. To achieve this, a B*-tree data structure is implemented in conjunction with a Simulated Annealing (SA) optimization algorithm to explore placement solutions. The final floorplan must satisfy the fixed-outline constraint and ensure that no overlaps occur among the macros.
   
 For more details, refer to: [Lab2.pdf](Lab2.pdf)
 
