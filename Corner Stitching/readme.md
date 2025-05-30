@@ -1,7 +1,5 @@
 # Lab1 Corner Stitching
-The objective of logic optimization is to improve a given combinational circuit in terms of performance or area, in order to meet design constraints. This process facilitates effective technology mapping by transforming Boolean networks—often in a non-circuit form—into optimized circuit implementations that satisfy specified cost and constraint requirements.  
-  
-The objective of this programming assignment is two-level logic optimization, specifically aiming to reduce the number of Sum-of-Product (SOP) terms. Given an unoptimized Boolean function, we are required to implement the Quine-McCluskey algorithm in C++ to simplify the function and minimize its logical complexity.  
+This lab focuses on the implementation of corner stitching and its underlying data structures to support basic layout representation. The input file provides information about block tiles, and as new block tiles are added, corresponding space tiles must be generated and maintained accordingly. 
   
 For more details, refer to: [Lab1.pdf](Lab1.pdf) & [Lab1 Supplementary.pdf](https://github.com/TzuHsiang417/Physical-Design-Automation/blob/main/Corner%20Stitching/Lab1%20Supplementary.pdf)
 
