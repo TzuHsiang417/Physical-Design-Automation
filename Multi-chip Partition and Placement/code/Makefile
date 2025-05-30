@@ -11,7 +11,7 @@ EXE = go
 
 # Source 
 SOURCES = $(SRC_PATH)/main.cpp  
-OBJECTS = $(BUILD_PATH)/Placement.exe
+OBJECTS = $(BUILD_PATH)/Lab3.exe
 
 # Compiler flags
 CXXFLAG = -O3 -Wall
