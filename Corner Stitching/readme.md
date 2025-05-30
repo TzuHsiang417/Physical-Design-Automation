@@ -3,8 +3,6 @@ This lab focuses on the implementation of corner stitching and its underlying da
   
 For more details, refer to: [Lab1.pdf](Lab1.pdf) & [Lab1 Supplementary.pdf](https://github.com/TzuHsiang417/Physical-Design-Automation/blob/main/Corner%20Stitching/Lab1%20Supplementary.pdf)
 
-## Program Structure and Algorithms
-<img src="" width="50%">
 
 ## Compilation
 Run the following command to compile the project:
