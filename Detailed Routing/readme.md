@@ -1,5 +1,5 @@
 # Lab4 Detailed Routing
-This lab focuses on the implementation of partitioning and placement. Initially, we are given the global placement results of a chip design along with cell information. The task is to partition the cells into two separate chips, and then perform standard cell placement for each chip within feasible rows while avoiding any overlaps. The objective is to minimize the movement of cells from their original global placement positions.
+This lab focuses on the implementation of a detailed router to solve the channel routing problem, a fundamental task in physical design. Given the predefined horizontal vias information, the objective is to establish legal routing paths for each net within a constrained routing region, while avoiding overlaps.
   
 For more details, refer to: [Lab4.pdf](Lab4.pdf)
 
