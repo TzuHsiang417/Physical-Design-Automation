@@ -11,7 +11,7 @@ EXE = go
 
 # Source 
 SOURCES = $(SRC_PATH)/main.cpp  
-OBJECTS = $(BUILD_PATH)/CornerStitching.exe
+OBJECTS = $(BUILD_PATH)/Lab1
 
 # Compiler flags
 CXXFLAG = -O3 -Wall
