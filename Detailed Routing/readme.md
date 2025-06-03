@@ -34,8 +34,10 @@ python3 channel_routing_draw.py [INPUT] [OUTPUT] [PICTURE_NAME]
 ## Results
 | Case1                                  | Case2                                  |
 |:--------------------------------------:|:--------------------------------------:|
+| Track = 11                             | Track = 15                             |
 | ![case1](picture/case1.png)            | ![case2](picture/case2.png)            |
 
 | Deutsch Difficult                      |
 |:--------------------------------------:|
+| Track = 33                             |
 | ![case4](picture/Deutsch_difficult.png)|
