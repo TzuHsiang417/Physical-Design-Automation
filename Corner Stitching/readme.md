@@ -21,8 +21,11 @@ Run the program:
 ```sh
 ./Lab1 [input_file] [output_file]
 ```
+This lab produces two types of output files. The first is the output format file named `[output_file]`, which contains the placement results in a structured format. The second is a drawing format file named `drawing_[output_file]`, which is used for visualizing the placement results.
+
+
 
 ## Drawing
 ```sh
-python3 draw_block_layout.py [LAYOUT_INFORMATION] [PICTURE_NAME]
+python3 draw_block_layout.py drawing_[output_file] [PICTURE_NAME]
 ```
