@@ -40,3 +40,18 @@ python3 draw.py Case/case0.txt output.txt drawing/layout0 -i
 python3 draw.py Case/case0.txt output.txt drawing/layout0 -i -p
 python3 draw.py Case/case0.txt output.txt drawing/layout0 -p
 ```
+
+## Results
+<table>
+  <tr>
+    <th colspan="2" style="text-align:center;">Case0</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Top partition</b></td>
+    <td align="center"><b>Bottom partition</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="picture/case0_top_partition.png" width="500"></td>
+    <td style="text-align:center;"><img src="picture/case0_bottom_partition.jpg" width="500"></td>
+  </tr>
+</table>
