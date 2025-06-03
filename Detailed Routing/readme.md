@@ -30,3 +30,16 @@ Run the program:
 ```sh
 python3 channel_routing_draw.py [INPUT] [OUTPUT] [PICTURE_NAME]
 ```
+
+## Results
+| Case1                                  |
+|:--------------------------------------:|
+| ![case1](picture/case1.png)            |
+
+| Case2                                  |
+|:--------------------------------------:|
+| ![case2](picture/case2.png)            |
+
+| Deutsch Difficult                      |
+|:--------------------------------------:|
+| ![case4](picture/Deutsch_difficult.png)|
