@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
     vector<pair<int, TILE *>> block;
 
-    TILE *base;
+    //TILE *base;
     vector<POINT> p;
 
     cout << "The program begin." << endl;
@@ -29,14 +29,14 @@ int main(int argc, char *argv[])
             tile_num = 1;
             base = new TILE(POINT(0, 0), stoi(testcase[0][0]), stoi(testcase[0][1]), SPACE);
             s.push_back(base);
+            outline_width = stoi(testcase[0][0]);
+            outline_height = stoi(testcase[0][1]);
         }
         else if (testcase[i][0] == "P")
-        {
-            p.push_back(Point_Finding(base, POINT(stoi(testcase[i][1]), stoi(testcase[i][2])))->coordinate);
-        }
+            p.push_back(Point_Finding(POINT(stoi(testcase[i][1]), stoi(testcase[i][2])))->coordinate);
         else
         {
-            TILE *block_tmp = Block_Insertion(base, POINT(stoi(testcase[i][1]), stoi(testcase[i][2])), stoi(testcase[i][3]), stoi(testcase[i][4]));
+            TILE *block_tmp = Block_Insertion(POINT(stoi(testcase[i][1]), stoi(testcase[i][2])), stoi(testcase[i][3]), stoi(testcase[i][4]));
             block.push_back(make_pair(stoi(testcase[i][0]), block_tmp));
         }
     }
@@ -44,6 +44,7 @@ int main(int argc, char *argv[])
     sort(block.begin(), block.end(), cmp);
 
     create_file(argv[argc-1], block, p);
+    create_drawing_file(argv[argc-1], block);
 
     cout << "The program ended." << endl;
 

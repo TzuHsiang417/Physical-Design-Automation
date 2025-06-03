@@ -43,15 +43,18 @@ struct TILE
     }
 };
 
-TILE *Point_Finding(TILE *base, POINT goal);
-TILE *Block_Insertion(TILE *base, POINT p, int wid, int hei);
+TILE *Point_Finding(POINT goal);
+TILE *Block_Insertion(POINT p, int wid, int hei);
 TILE *Seperate_Horizon(TILE *tile, int h);
 TILE *Seperate_Vertical(TILE *tile, int v);
 void Merge(TILE *tile_a, TILE *tile_b);
 pair<int, int> Neighbor_Finding(TILE *tile);
 void create_file(char *argv, vector<pair<int, TILE*> >&block, vector<POINT>&p);
+void create_drawing_file(char *argv, vector<pair<int, TILE*> >&block);
 
 inline int tile_num;
 inline vector<TILE*> s;
+inline int outline_width, outline_height;
+inline TILE *base;
 
 #endif

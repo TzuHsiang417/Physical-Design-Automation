@@ -57,3 +57,31 @@ void create_file(char *argv, vector<pair<int, TILE*> >&block, vector<POINT>&p)  
         cout << "The file can not be saved.\n";
     ofile.close();
 }
+
+void create_drawing_file(char *argv, vector<pair<int, TILE*> >&block)
+{
+    char *drawing_file = "drawing_";
+    char file_tmp[100] = {0};
+    strcat(file_tmp, drawing_file);
+    strcat(file_tmp, argv);
+    ofstream ofile(file_tmp, ios::out);
+    if(ofile.is_open())
+    {
+        ofile << tile_num << endl;
+        ofile << outline_width << " " << outline_height << endl;
+        /*for(int i = 0; i < block.size(); i++)
+        {
+            ofile << block[i].first << " " << block[i].second->coordinate.x << " " << block[i].second->coordinate.y << " " << block[i].second->width << " " << block[i].second->height << endl;
+        }*/
+        for(int i = 0; i < s.size(); i++)
+        {
+            if(s[i]->type == BLOCK)
+                ofile << "1 " << s[i]->coordinate.x << " " << s[i]->coordinate.y << " " << s[i]->width << " " << s[i]->height << endl;
+            else
+                ofile << "-1 " << s[i]->coordinate.x << " " << s[i]->coordinate.y << " " << s[i]->width << " " << s[i]->height << endl;
+        }
+    }
+    else
+        cout << "The drawing file can not be saved.\n";
+    ofile.close();
+}

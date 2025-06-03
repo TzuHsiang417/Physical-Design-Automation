@@ -1,10 +1,11 @@
 #include <iostream>
 #include "block.h"
 
-TILE *Point_Finding(TILE *base, POINT goal)
+TILE *Point_Finding(POINT goal)
 {
     TILE *position;
     position = base;
+    int test = 0;
     while (1)
     {
         if (goal.y < BOTTOM(position))
@@ -17,12 +18,13 @@ TILE *Point_Finding(TILE *base, POINT goal)
             position = TR(position);
         else
             return position;
+        test++;
     }
 }
 
-TILE *Block_Insertion(TILE *base, POINT p, int wid, int hei)
+TILE *Block_Insertion(POINT p, int wid, int hei)
 {
-    TILE *tile = Point_Finding(base, p);
+    TILE *tile = Point_Finding(p);
 
     if (p.y > BOTTOM(tile))
         tile = Seperate_Horizon(tile, p.y);
@@ -73,8 +75,6 @@ TILE *Block_Insertion(TILE *base, POINT p, int wid, int hei)
 
         inserted_tmp = tile;
     }
-
-
     inserted_tmp->type = BLOCK;
 
     return inserted_tmp;
@@ -212,7 +212,7 @@ void Merge(TILE *tile_a, TILE *tile_b)
         tile_a->BL = BL(tile_b);
         tile_a->coordinate.y = BOTTOM(tile_b);
     }
-
+    
     tile_a->height = tile_a->height + tile_b->height;
 
     TILE *search;
@@ -223,6 +223,10 @@ void Merge(TILE *tile_a, TILE *tile_b)
         search->TR = tile_a;
 
     tile_num--;
+    s.erase(remove(s.begin(), s.end(), tile_b), s.end());
+
+    if(base == tile_b)
+        base = tile_a;
 
     delete tile_b;
 
