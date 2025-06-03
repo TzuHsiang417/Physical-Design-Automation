@@ -47,11 +47,109 @@ python3 draw.py Case/case0.txt output.txt drawing/layout0 -p
     <th colspan="2" style="text-align:center;">Case0</th>
   </tr>
   <tr>
+    <th colspan="2" style="text-align:center;">Initial</th>
+  </tr>
+  <tr>
+    <th colspan="2" style="text-align:center;"><img src="picture/case0_initial.png" width="500"></th>
+  </tr>
+  <tr>
     <td align="center"><b>Top partition</b></td>
     <td align="center"><b>Bottom partition</b></td>
   </tr>
   <tr>
     <td style="text-align:center;"><img src="picture/case0_top_partition.png" width="500"></td>
-    <td style="text-align:center;"><img src="picture/case0_bottom_partition.jpg" width="500"></td>
+    <td style="text-align:center;"><img src="picture/case0_bottom_partition.png" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Top result placement</b></td>
+    <td align="center"><b>Bottom result placement</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="picture/case0_top.png" width="500"></td>
+    <td style="text-align:center;"><img src="picture/case0_bottom.png" width="500"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align:center;">Case1</th>
+  </tr>
+  <tr>
+    <th colspan="2" style="text-align:center;">Initial</th>
+  </tr>
+  <tr>
+    <th colspan="2" style="text-align:center;"><img src="picture/case1_initial.png" width="500"></th>
+  </tr>
+  <tr>
+    <td align="center"><b>Top partition</b></td>
+    <td align="center"><b>Bottom partition</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="picture/case1_top_partition.png" width="500"></td>
+    <td style="text-align:center;"><img src="picture/case1_bottom_partition.png" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Top result placement</b></td>
+    <td align="center"><b>Bottom result placement</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="picture/case1_top.png" width="500"></td>
+    <td style="text-align:center;"><img src="picture/case1_bottom.png" width="500"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align:center;">Case2</th>
+  </tr>
+  <tr>
+    <th colspan="2" style="text-align:center;">Initial</th>
+  </tr>
+  <tr>
+    <th colspan="2" style="text-align:center;"><img src="picture/case2_initial.png" width="500"></th>
+  </tr>
+  <tr>
+    <td align="center"><b>Top partition</b></td>
+    <td align="center"><b>Bottom partition</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="picture/case2_top_partition.png" width="500"></td>
+    <td style="text-align:center;"><img src="picture/case2_bottom_partition.png" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Top result placement</b></td>
+    <td align="center"><b>Bottom result placement</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="picture/case2_top.png" width="500"></td>
+    <td style="text-align:center;"><img src="picture/case2_bottom.png" width="500"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="2" style="text-align:center;">Case3</th>
+  </tr>
+  <tr>
+    <th colspan="2" style="text-align:center;">Initial</th>
+  </tr>
+  <tr>
+    <th colspan="2" style="text-align:center;"><img src="picture/case3_initial.png" width="500"></th>
+  </tr>
+  <tr>
+    <td align="center"><b>Top partition</b></td>
+    <td align="center"><b>Bottom partition</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="picture/case3_top_partition.png" width="500"></td>
+    <td style="text-align:center;"><img src="picture/case3_bottom_partition.png" width="500"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Top result placement</b></td>
+    <td align="center"><b>Bottom result placement</b></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;"><img src="picture/case3_top.png" width="500"></td>
+    <td style="text-align:center;"><img src="picture/case3_bottom.png" width="500"></td>
   </tr>
 </table>
