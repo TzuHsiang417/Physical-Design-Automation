@@ -23,9 +23,24 @@ Run the program:
 ```
 This lab produces two types of output files. The first is the output format file named `[output_file]`, which contains the placement results in a structured format. The second is a drawing format file named `drawing_[output_file]`, which is used for visualizing the placement results.
 
-
-
 ## Drawing
 ```sh
 python3 draw_block_layout.py drawing_[output_file] [PICTURE_NAME]
 ```
+
+## Results
+| Case0                      | Case1                      |
+|:--------------------------:|:--------------------------:|
+| ![case0](picture/case0.png)| ![case1](picture/case1.png)|
+
+| Case2                      | Case3                      |
+|:--------------------------:|:--------------------------:|
+| ![case2](picture/case2.png)| ![case3](picture/case3.png)|
+
+| Case4                      | Case5                      |
+|:--------------------------:|:--------------------------:|
+| ![case4](picture/case4.png)| ![case5](picture/case5.png)|
+
+| Case6                      | Case7                      |
+|:--------------------------:|:--------------------------:|
+| ![case6](picture/case6.png)| ![case7](picture/case7.png)|
