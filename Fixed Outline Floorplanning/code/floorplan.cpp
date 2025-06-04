@@ -48,7 +48,7 @@ void FloorPlanning::InitialBtree()  //create initial B*-tree
     int max_x = 0;
     for(int i=0; i<num_block; i++)
     {
-        if(block_info[i].width > block_info[i].height)
+        if(block_info[i].width < block_info[i].height)
         {
             int tmp = block_info[i].width;
             block_info[i].width = block_info[i].height;
