@@ -31,21 +31,13 @@ python3 draw_floorplan_layout.py [input.block] [output] [PICTURE_NAME]
 ./verifier [α value] [input.block] [input.net] [output]
 ```
 ## Results
-| ami33a                      |
-|:---------------------------:|
-| ![case0](picture/ami33a.png)|
+| ami33a                      | ami33b                      |
+|:---------------------------:|:---------------------------:|
+| ![case0](picture/ami33a.png)| ![case0](picture/ami33b.png)|
 
-| ami33b                      |
-|:---------------------------:|
-| ![case0](picture/ami33b.png)|
-
-| ami49a                      |
-|:---------------------------:|
-| ![case0](picture/ami49a.png)|
-
-| ami49b                      |
-|:---------------------------:|
-| ![case0](picture/ami49b.png)|
+| ami49a                      | ami49b                      |
+|:---------------------------:|:---------------------------:|
+| ![case0](picture/ami49a.png)| ![case0](picture/ami49b.png)|
 
 | vda317b                      |
 |:----------------------------:|
